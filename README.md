@@ -64,5 +64,3 @@ These modes each renders thousands of particles inside a bounding box with an in
 ### Parallelism
 - **OpenMP physics loop** — The per-particle physics update (`Particle::update` and `Particle::collideBounds`) runs inside a `#pragma omp parallel for schedule(static)` region. Thread count is configurable via `num_threads` in the config file.
 
-## Screenshots(of modes)
-1. 
